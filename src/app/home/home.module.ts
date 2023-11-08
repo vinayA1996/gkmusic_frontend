@@ -4,7 +4,7 @@ import { HomeLayoutComponent } from './home-layout/home-layout.component';
 import { SharedModule } from '../shared/shared.module';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { HomeRoutingModule } from './home.routing';
-
+import { CommonComponentsModule } from '../common-components/common-components.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,8 @@ import { HomeRoutingModule } from './home.routing';
   imports: [
     CommonModule,
     SharedModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    CommonComponentsModule
   ],
   exports:[
     HomeLayoutComponent
