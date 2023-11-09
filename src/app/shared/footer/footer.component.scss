@@ -1,23 +1,22 @@
-#grid2{
+#grid2 {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20% ;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   padding-top: 20px;
 }
-.whlist{
+.whlist {
   list-style-type: none;
   color: #737373;
 }
-.clist{
+.clist {
   padding-top: 5px;
 }
-.box{
+.box {
   background-color: #26272b;
-  width: 1530px;
+  width: auto;
   height: 200px;
-  margin-left: 0
-
+  margin-left: 0;
 }
-.circle{
+.circle {
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -26,41 +25,34 @@
   padding-top: 8px;
   font-size: 20px;
   margin-right: 10px;
-
 }
-#list3{
+#list3 {
   display: flex;
   list-style-type: none;
   padding-left: 25px;
   padding-top: 50px;
 }
-#alist3
-{
+#alist3 {
   color: black;
 }
-.hcolor
-{
+.hcolor {
   color: rgb(221, 191, 130);
 }
-#list4{
-
+#list4 {
   list-style-type: none;
   padding-bottom: 50px;
-
 }
-#alist4{
+#alist4 {
   text-decoration: none;
   color: blueviolet;
- margin-bottom: 50px;
- padding-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 100px;
 }
-.icon
-{
+.icon {
   width: 40px;
   height: 40px;
 }
-#paraa
-{
+#paraa {
   padding-top: 70px;
   padding-left: 550px;
 }
