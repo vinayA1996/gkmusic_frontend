@@ -1,13 +1,5 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Apply some basic styles to make the page responsive */
-#div1
-{
+#div1 {
   margin-top: 200px;
   margin-bottom: 200px;
 }
@@ -43,7 +35,7 @@ nav ul li {
 }
 
 .hero {
-  background-image: url('/assets/images/pexels-pixabay-164938.jpg');
+  background-image: url("/assets/images/pexels-pixabay-164938.jpg");
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -59,7 +51,6 @@ nav ul li {
 }
 
 .btn {
-  background-color: #ff6600;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -73,9 +64,26 @@ nav ul li {
   text-align: center;
   margin: 20px;
 }
-img{
+img {
   width: 400px;
   height: 400px;
 }
 
 /* You can add more CSS styles to customize your website further */
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.card-body {
+  align-items: center;
+  text-align: center;
+}
+.song-card {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 150px;
+}

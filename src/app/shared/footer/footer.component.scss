@@ -52,7 +52,11 @@
   width: 40px;
   height: 40px;
 }
-#paraa {
-  padding-top: 70px;
-  padding-left: 550px;
+p#paraa {
+  /* text-align: center; */
+  position: absolute;
+  display: flex;
+  left: 42%;
+  margin-top: -23px;
+  color: wheat;
 }
